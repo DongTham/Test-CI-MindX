@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    flex: 1 1 auto;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 35vw;
+    margin: 0 auto;
+}
+
+h1,
+h3 {
+    border-radius: 0.8em;
+    background: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.body-button {
+    text-align: center;
+}
+
+button,
+input {
+    border: 5px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+button {
+    padding: 0.8em;
+}
+
+h3 {
+    display: block;
+    font-size: 1rem;
+}
